@@ -1,0 +1,34 @@
+algorithme ex1
+var 
+tab1 : array of integer;
+tab2 :array of integer;
+som,i,j : integer;
+begin 
+for (i from 0 to tab1.length-1 step1)do 
+for (j from 0 to i step1)do
+if tab1[i]<>tab2[j]then 
+som=som+tab[j];
+else if tab1[i] = tab2[j] then 
+break;
+end if 
+end for
+end for 
+write (som);
+end.
+
+
+algorithme ex2
+var 
+tab1 : array of integer;
+tab2 :array of integer;
+som,i,j : integer;
+begin 
+for (i from 0 to tab1.length-1 step1)do 
+for (j from 0 to i step1)do
+if tab1[i]=tab2[j]
+som=som+tab2[j]+tab1[i];
+end if 
+end for
+end for 
+write (som);
+end.
